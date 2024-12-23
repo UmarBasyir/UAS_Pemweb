@@ -375,6 +375,6 @@ Dengan menggunakan protokol HTTPS dan dengan menggunakan fitur firewall / keaman
 
 * Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
 
-Server web: Saya menggunakan server web Apache.
-Database server: Saya menggunakan database server MySQL.
+Server web: Server web Apache.
+Database server: Database server MySQL.
 Aplikasi web: Aplikasi web saya ditulis dalam bahasa PHP, JS, CSS, HTML
