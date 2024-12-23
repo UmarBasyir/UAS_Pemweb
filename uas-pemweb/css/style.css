@@ -1,0 +1,158 @@
+/* Style umum untuk semua halaman */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000bd;
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #4d4d4d;
+}
+
+/* Style untuk Sidebar di Halaman Utama */
+.sidebar {
+  height: 100vh;
+  background-color: #f8f9fa;
+  border-right: 2px solid #ddd;
+}
+
+.sidebar h5 {
+  font-weight: bold;
+}
+
+.sidebar .nav-link {
+  padding: 10px;
+  color: #343a40;
+}
+
+.sidebar .nav-link.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+/* Style untuk header dan konten di Halaman Utama */
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 408px;
+}
+
+section h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Style untuk formulir di Halaman Formulir */
+form {
+  margin-top: 20px;
+}
+
+form .form-label {
+  font-weight: bold;
+}
+
+form .form-control, 
+form .form-select {
+  border-radius: 5px;
+}
+
+form .btn {
+  background-color: #007bff;
+  color: white;
+}
+
+form .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style untuk Tabel di Halaman Tabel */
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.sidebar {
+  background-color: #f8f9fa;
+  border-right: 2px solid #ddd;
+  padding: 20px;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  border-right: 2px solid #ddd;
+  padding: 20px;
+  height: 100%;
+}
+footer {
+  background-color: #121212b8;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling tambahan agar sidebar tetap tampil di layar kecil */
+@media (max-width: 767px) {
+  .sidebar {
+    height: auto;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #ddd;
+  }
+}
+
+/* Styling logo agar responsif */
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  header img {
+    max-width: 150px;
+  }
+}
